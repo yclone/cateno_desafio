@@ -1,0 +1,38 @@
+{
+  "properties": {
+    "estado_info": {
+      "type": "object",
+      "required": [
+        "area_km2",
+        "codigo_ibge",
+        "nome"
+      ],
+      "properties": {
+        "area_km2": {
+          "type": "string"
+        },
+        "codigo_ibge": {
+          "type": "string"
+        },
+        "nome": {
+          "type": "string"
+        }
+      }
+    },
+    "cidade_info": {
+      "type": "object",
+      "required": [
+        "area_km2",
+        "codigo_ibge"
+      ],
+      "properties": {
+        "area_km2": {
+          "type": "string"
+        },
+        "codigo_ibge": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
